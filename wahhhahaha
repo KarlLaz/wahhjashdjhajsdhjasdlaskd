@@ -14,7 +14,7 @@ class HelloWorld {
         
         int name5 = (name2 + name3 + name4) / 3; //Gets the average if name2, 3 and 4
         
-        if(name5 >= 90 && name5 <=100){      /**if name5 >= 90 is true and name5 <=100 (&& operand                                        will return a true value (1))
+        if(name5 >= 90 && name5 <=100){      /**if name5 >= 90 is true and name5 <=100 (&& operand will return a true value (1))
                                                 if both statement are true then the system print  "Your grade is A"**/
             System.out.println("Your grade is A");
         }
