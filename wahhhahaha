@@ -39,9 +39,6 @@ class HelloWorld {
             grade = 4;
         }
         
-        //gradeChecker will use the value of grade value
-        int gradeChecker = grade;
-        
         //switch will use grade to find the case and execute the code 
         switch (grade) {
             case 1: System.out.print("Your grade is A");
