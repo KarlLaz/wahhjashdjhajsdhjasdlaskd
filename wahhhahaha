@@ -52,6 +52,13 @@ class HelloWorld {
             break;
             case 4: System.out.print("Your grade is F");
             break;
+
+/** Explanation:
+    This code takes input from the user to get their grades on Java, C and Database.
+    The if statements will check if the average is greater than or equal to the required grade to get an A, B, C and F grade
+    then it puts a value to the "int grade" depending on what average grade they got. The switch statement will check the "int grade" 
+    and uses the case depending on what number the "int grade" and executes the code corresponding to the case no.
+**//
         }
     }
     
