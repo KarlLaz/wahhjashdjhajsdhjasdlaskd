@@ -4,27 +4,27 @@ class HelloWorld {
         
         int grade;
        
-        Scanner sc = new Scanner(System.in);
-        int name = sc.nextInt();
-        System.println("Input your Java's Programming Score");
-        int name2 = sc.nextInt();
-        System.println("Input your C Programming Score");
-        int name3 = sc.nextInt();
-        System.println("Input your Database Handling Score");
-        int name4 = sc.NextInt();
+        Scanner sc = new Scanner(System.in); //Used to get input
+        System.out.println("Input your Java's Programming Score: ");
+        int name2 = sc.nextInt();//Gets the input from user and store it on name2
+        System.out.println("Input your C Programming Score: ");
+        int name3 = sc.nextInt();//stores on name3
+        System.out.println("Input your Database Handling Score: ");
+        int name4 = sc.nextInt();//stores on name4
         
-        int name5 = (name2 + name3 + name4) / 3;
+        int name5 = (name2 + name3 + name4) / 3; //Gets the average if name2, 3 and 4
         
-        if(name5 >= 90 && name5 <=100){
+        if(name5 >= 90 && name5 <=100){      /**if name5 >= 90 is true and name5 <=100 (&& operand                                        will return a true value (1))
+                                                if both statement are true then the system print  "Your grade is A"**/
             System.out.println("Your grade is A");
         }
         else if(name5 >= 80 && name5 <= 89){
             System.out.println("Your grade is B");
         }
-    else if(name5 >= 75 && name5 <= 79){
+        else if(name5 >= 75 && name5 <= 79){
             System.out.println("Your grade is C");
         }
-    else if(name5 >= 74){
+        else if(name5 >= 74){
         System.out.println("Your grade is D");
         }
         
