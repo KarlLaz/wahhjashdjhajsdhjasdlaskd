@@ -8,21 +8,20 @@ class HelloWorld {
         
         System.out.println("Input your Java's Programming Score: ");
         
-        int java = sc.nextInt();//Gets the input from user and store it on name2
+        int java = sc.nextInt();//Gets the input from user and store it on java
         
         System.out.println("Input your C Programming Score: ");
-        
-        
-        int C = sc.nextInt();//stores on name3
+     
+        int C = sc.nextInt();//stores on C
         
         System.out.println("Input your Database Handling Score: ");
         
-        int Database = sc.nextInt();//stores on name4
+        int Database = sc.nextInt();//stores on Database
         
-        int average = (java + C + Database) / 3; //Gets the average of name2, 3 and 4
+        int average = (java + C + Database) / 3; //Gets the average of Java, C and Database
         
         if(average >= 90 && average <= 100){     
-            /**if name5 >= 90 is true and name5 <=100 is true (&& operand will return a true value (1) to name5 (1 means true) )if both statement are true the if statement assigns a value to grade **/ 
+            /**if average >= 90 is true and average <=100 is true (&& operand will return a true value (1) to average (1 means true) )if both statement are true the if statement assigns a value to grade **/ 
         
            grade = 1;
         }
